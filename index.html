@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo-10</title>
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Faça Seu Cadastro</h1>
+            <form>
+                <div class="form-camp">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" name="nome" id="nome" placeholder="Insira o nome completo">
+                    <p id="erroNome" style="color: red; display: none;">Digite seu nome completo</p>
+                </div>
+                <div class="form-camp">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com.br"">
+                </div>
+                <div class="form-camp">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone">
+                </div>
+                <div class="form-camp">
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf">
+                </div>
+                <div class="form-camp">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Endereço completo">
+                </div>
+                <div class="form-camp">
+                    <label for="cep">CEP</label>
+                    <input type="text" name="cep" id="cep">
+                </div>
+
+                <button> Cadastrar</button>
+            </form>
+        </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

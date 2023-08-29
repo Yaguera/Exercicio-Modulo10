@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;;
+}
+
+body{
+    background-color: hsl(179, 100%, 13%);
+}
+
+section{
+    max-width: 1024px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 360px;
+    border-radius: 0.6rem;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    padding: 32px;
+    background-color:hsl(31, 77%, 52%);
+}
+
+.container h1{
+    color:hsl(184, 100%, 22%);
+    font-size: 32px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.form-camp{
+    margin: 16px 0;
+}
+
+.form-camp label{
+    display: block;
+    font-weight: bold;
+    color: #e8e8e8;
+
+}
+
+.form-camp input {
+    background-color: #f5ecec;
+    border-radius: 0.2rem;
+    padding: 8px;
+    width: 100%;
+    height: 24px;
+    display: block;
+    border: none;
+
+}
+
+form button{
+    display: flex;
+    margin: 24px auto 0;
+    padding: 8px;
+    width: 10rem;
+    border-radius: 0.5rem;
+    border: none;
+    justify-content: center;
+    color: #e8e8e8;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+}
+
+label.error {
+    font-weight: normal;
+    color: rgba(255, 0, 0, 0.625);
+
+}
