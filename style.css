@@ -36,10 +36,11 @@ section{
 
 .form-camp{
     margin: 16px 0;
+    display: block;
 }
 
 .form-camp label{
-    display: block;
+    
     font-weight: bold;
     color: #e8e8e8;
 
@@ -51,7 +52,7 @@ section{
     padding: 8px;
     width: 100%;
     height: 24px;
-    display: block;
+
     border: none;
 
 }
@@ -81,4 +82,23 @@ label.error {
     font-weight: normal;
     color: rgba(255, 0, 0, 0.625);
 
+}
+
+
+
+@media screen and (max-height: 540px){
+    .form-camp{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-right: 3vw;
+        margin: 0 auto;
+    }
+    .container{
+        width: 540px;
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
