@@ -30,6 +30,15 @@ $(document).ready(function(){
             endereco: 'Digite o endereço completo',
             cep: 'Digite um CEP válido'
 
+        },
+        submitHandler: function(form){
+            submit(form);
+        },
+        invalidHandler: function(evento, validador){
+            let camposIncorretos = validador.numberOfInvalids();
+            if(camposIncorretos){
+                alert(`Existem ${camposIncorretos} campos incorretos`)
+            }
         }    
     })
 
@@ -42,6 +51,8 @@ $(document).ready(function(){
     $('#cep').mask('00000-00',{
         placeholder: '00000-00'
     })
+
+    
 
 
 })

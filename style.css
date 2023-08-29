@@ -72,6 +72,11 @@ form button{
     background-color: hsl(184, 100%, 22%);
 }
 
+button:hover{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
 label.error {
     font-weight: normal;
     color: rgba(255, 0, 0, 0.625);
